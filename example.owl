@@ -1,0 +1,1040 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/example#"
+     xml:base="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/example"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/example"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-16#Proteoglycans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-16#Proteoglycans">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid1">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-16#Proteoglycans"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Nothing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing"/>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid1"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteoglycans) replaced by DisjointClasses(Proteoglycans Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid3"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(AF) replaced by DisjointClasses(AF Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid3">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(AF) replaced by DisjointClasses(AF Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cells -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cells">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid5"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(CEP) replaced by DisjointClasses(CEP Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid5">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(CEP) replaced by DisjointClasses(CEP Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid7"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Collagen) replaced by DisjointClasses(Collagen Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid7">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(Collagen) replaced by DisjointClasses(Collagen Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid9"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Histology) replaced by DisjointClasses(Histology Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid9">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(Histology) replaced by DisjointClasses(Histology Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Intervertebral_Disc"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid11"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(MRI) replaced by DisjointClasses(MRI Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid11">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(MRI) replaced by DisjointClasses(MRI Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid13"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(NP) replaced by DisjointClasses(NP Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid13">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(NP) replaced by DisjointClasses(NP Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Cell_Biology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ_Culture_Models">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cells"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid15"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Proteomics_Measurments) replaced by DisjointClasses(Proteomics_Measurments Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid15">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(Proteomics_Measurments) replaced by DisjointClasses(Proteomics_Measurments Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cells"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid17"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Transcriptomic_Measurments) replaced by DisjointClasses(Transcriptomic_Measurments Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid17">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(Transcriptomic_Measurments) replaced by DisjointClasses(Transcriptomic_Measurments Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    <owl:Annotation>
+        <owl:annotatedSource rdf:nodeID="genid19"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget>DisjointClasses(Water) replaced by DisjointClasses(Water Thing)</owl:annotatedTarget>
+        <rdfs:comment>Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi on 3/21/24, 11:45 AM</rdfs:comment>
+    </owl:Annotation>
+    <owl:Axiom rdf:nodeID="genid19">
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#disjointWith"/>
+        <owl:annotatedTarget rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>DisjointClasses(Water) replaced by DisjointClasses(Water Thing)</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-16#Proteoglycans"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Collagen"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Water"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Organ"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Biology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Biology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Extracellular_Matrix_Composition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Mechanical_Response"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Biology"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cell"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cell"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cell"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#AF_Cells"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#CEP_Cells"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#NP_Cells"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Biology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Finite_Element_Models"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Segmentation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Computational_Models"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Experimental_Models"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#MRI"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Histology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Proteomics_Measurments"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francis.chemorion/ontologies/2024/2/untitled-ontology-24#Transcriptomic_Measurments"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
